@@ -6,7 +6,6 @@
 using namespace std;
 
 void quicksort(int arr[], int start, int end);
-int partition(int arr[], int start, int end);
 
 int main()
 {
