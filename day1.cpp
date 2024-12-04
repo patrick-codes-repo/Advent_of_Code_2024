@@ -37,6 +37,8 @@ int main()
     iFile >> rNumbers[i];
   }
 
+  iFile.close();
+
   quicksort(lNumbers, 0, lineCount - 1);
   quicksort(rNumbers, 0, lineCount - 1);
 
