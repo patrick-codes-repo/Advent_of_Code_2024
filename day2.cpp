@@ -71,4 +71,7 @@ int main()
   }
 
   cout << safeCount << endl;
+
+  iFile.close();
+  return 0;
 }
